@@ -1,0 +1,22 @@
+{
+  "name": "sd-task3-services",
+  "version": "1.0.0",
+  "description": "app con tres servicios. Crud de una lista nombres. Cada servicio me quede en un archivo aparte.  POST, GET, DELETE",
+  "main": "MainServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/drox13/SD-task3-services.git"
+  },
+  "author": "Dario Baron, Andres baron, Brayan Cardenas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/drox13/SD-task3-services/issues"
+  },
+  "homepage": "https://github.com/drox13/SD-task3-services#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
