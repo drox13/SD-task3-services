@@ -4,14 +4,10 @@ const model = require("../modelList");
 
 const express = require('express');
 const router = express.Router();
-const app = express();
 
-const bodyParser = require('body-parser');
-app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
-
-router.get('/', (req,res)=>{
-    res.send("Hello bitch");
+router.post('/', (req,res)=>{
+    model.userList.push(req.body.name);
+    res.send(model.userList);
 });
 
 module.exports = router;
