@@ -4,6 +4,7 @@
   "description": "app con tres servicios. Crud de una lista nombres. Cada servicio me quede en un archivo aparte.  POST, GET, DELETE",
   "main": "MainServer.js",
   "scripts": {
+    "start": "nodemon MainServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/drox13/SD-task3-services#readme",
   "dependencies": {
+    "body-parser": "^1.19.0",
     "express": "^4.17.1"
   }
 }
