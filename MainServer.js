@@ -1,14 +1,15 @@
 "use strict"
-const operacion = require("./modelList");
-const postMethod = require("./postMethod");
 
 const express = require('express');
 const app = express();
+const getFile = require('./routes/GetMethod');
+const postFile = require('./routes/PostMethod');
+/*const deleteFile = require('./deleteMethod');*/
+
 const port = 5000;
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-}); 
+app.use('/', getFile);
+app.use('/', postFile);
 
 app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`);

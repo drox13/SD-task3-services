@@ -1,5 +1,5 @@
-let miArray = ["Dario", "Alex", "Maria", "Mireya", "Juan"];
+let userList = ["Dario", "Alex", "Maria", "Mireya", "Juan"];
 
-module.exports = {
-    "miArray": miArray
+module.exports ={
+    "userList": userList
 }
