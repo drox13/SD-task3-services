@@ -1,5 +1,5 @@
-let userList = ["Dario", "Alex", "Maria", "Mireya", "Juan", "Dario", "Maria"];
+let userList = ["Dario", "Alex", "Maria", "Mireya", "Juan"];
 
-module.exports ={
+module.exports = {
     "userList": userList
 }
