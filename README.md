@@ -5,3 +5,9 @@ ejemplo para metodo POST
 URL:  localhost:5000/
 ejmplo: {"name": "Samuel"}
 respuesta: debuelve toda la lista con el nuevo nombre agregado en ella
+
+Ejemplo del metodo get funcional
+http://localhost:5000/get/Maria
+
+Ejemplo del metodo get no funcional
+http://localhost:5000/get/Mariaa
