@@ -5,12 +5,9 @@ const { request } = require("express");
 const router = express.Router()
 
 router.get('/get/:username', (req, res) => {
-    console.log(req.params.username);
     var exist = false;
     var respuesta = "";
     for (const nameObj in model.userList) {
-        console.log(`name: ${model.userList[nameObj]}`);
-        
         if (req.params.username == model.userList[nameObj]) {
             exist = true;
             respuesta = respuesta +`${nameObj}, `;
