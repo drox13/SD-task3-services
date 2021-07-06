@@ -1,6 +1,11 @@
 # SD-task3-services
 app con tres servicios. Crud de una lista nombres. Cada servicio me quede en un archivo aparte.  POST, GET, DELETE
 
+Integrantes:
+Dario Leonidas Baron
+Brayan cardenas
+Jaime Baron
+
 ejemplo para metodo POST
 URL:  localhost:5000/
 ejmplo: {"name": "Samuel"}
